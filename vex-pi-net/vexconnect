@@ -1,0 +1,6 @@
+#!/bin/bash
+socat PTY,raw,echo=0,link=/dev/vex1 tcp:192.168.1.112:27781 &
+socat PTY,raw,echo=0,link=/dev/vex0 tcp:192.168.1.112:27780 &
+sleep 1
+chmod o+rw /dev/vex1
+chmod o+rw /dev/vex0

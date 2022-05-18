@@ -1,0 +1,4 @@
+sudo rfcomm watch /dev/rfcomm0 15 &
+sudo rfcomm watch /dev/rfcomm1 16 &
+
+socat something...

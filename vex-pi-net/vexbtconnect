@@ -1,0 +1,6 @@
+#!/bin/bash
+sudo rfcomm connect device /dev/vex0 15 &
+sudo rfcomm connect device /dev/vex1 16 &
+sleep 1
+chmod o+rw /dev/vex1
+chmod o+rw /dev/vex0

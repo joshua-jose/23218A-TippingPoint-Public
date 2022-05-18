@@ -1,0 +1,2 @@
+ssh pi@vexpi sudo shutdown now
+pkill socat
