@@ -19,6 +19,23 @@
  * Eventually use heading and angular velocity to better track the path, nudge the robot in the right direction,
    at least when we're close to the path
  */
+
+/* 
+--------------------------------- READ ME!! ---------------------------------
+
+All of the important code in  here has been redacted, but not as an effort to maintain 
+"competitive secrecy" or the likes.
+I want this to be an educational resource, rather than a place for a free "hole count", so instead
+of giving you the source to just copy from, here's the resources I used to learn how to implement
+pure pursuit :)
+oh and of course seeing the structure of my implementation hopefully helps.
+
+https://github.com/xiaoxiae/PurePursuitAlgorithm
+https://www.chiefdelphi.com/t/paper-implementation-of-the-adaptive-pure-pursuit-controller/166552
+
+--------------------------------- READ ME!! ---------------------------------
+*/
+
 namespace tomobo {
 
 // Path constructor, where all the parameters are passed.
